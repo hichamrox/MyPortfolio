@@ -25,7 +25,7 @@ const Navbar = () => {
             <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
             <nav className="nav-wrapper">
                 <div className="nav-content">
-                    <img className="logo" src='./public/mylogo.png' alt="logo" />
+                    <img className="logo" src='/images/mylogo.png' alt="logo" />
                     <ul>
                         <li>
                             <a className="nav-item" onClick={() => scrollToSection("hero-container")}>Home</a>
@@ -41,7 +41,7 @@ const Navbar = () => {
                         </li>
                         <button className="contact-btn" onClick={redirectToLinkedIn}>Hire Me</button>
                     </ul>
-                    <img className="burger-btn" src="./public/burger.png" alt="menu" onClick={toggleMenu} />
+                    <img className="burger-btn" src="/images/burger.png" alt="menu" onClick={toggleMenu} />
                 </div>
             </nav>
         </>
