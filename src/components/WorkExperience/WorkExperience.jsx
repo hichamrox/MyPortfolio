@@ -38,10 +38,10 @@ const WorkExperience = () => {
             <h5>Work Experience</h5>
             <div className="experience-content">
                 <div className="arrow-right" onClick={nextSlide}>
-                    <img style={{color: "white"}} src='./src/assets/chevron_right.png' alt="chevron_right" />
+                    <img style={{color: "white"}} src='./public/chevron_right.png' alt="chevron_right" />
                 </div>
                 <div className="arrow-left" onClick={prevSlide}>
-                    <img src='./src/assets/chevron_left.png' alt="chevron_left" />
+                    <img src='./public/chevron_left.png' alt="chevron_left" />
                 </div>
                 <Slider ref={slideRef} {...setting}>
                 {WORK_EXPERIENCE.map((experience, index) => (

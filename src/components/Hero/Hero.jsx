@@ -18,31 +18,31 @@ const Hero = () => {
         </p>
       </div>
       <div className="hero-right-content">
-        <img src="./src/assets/hicham.png" alt="hicham" />
+        <img src="./public/hicham.png" alt="hicham" />
         <div className="hero-icons">
           <div className="tech-icon">
-            <img src="./src/assets/html.png" alt="html" />
+            <img src="./public/html.png" alt="html" />
           </div>
           <div className="tech-icon">
-            <img src="./src/assets/css.png" alt="css" />
+            <img src="./public/css.png" alt="css" />
           </div>
           <div className="tech-icon">
-            <img src="./src/assets/js.png" alt="javascript" />
+            <img src="./public/js.png" alt="javascript" />
           </div>
           <div className="tech-icon">
-            <img src="./src/assets/ts.png" alt="typescript" />
+            <img src="./public/ts.png" alt="typescript" />
           </div>
           <div className="tech-icon">
-            <img src="./src/assets/react.png" alt="react" />
+            <img src="./public/react.png" alt="react" />
           </div>
           <div className="tech-icon">
-            <img src="./src/assets/flutter.png" alt="flutter" />
+            <img src="./public/flutter.png" alt="flutter" />
           </div>
           <div className="tech-icon">
-            <img src="./src/assets/nodejs.png" alt="nodejs" />
+            <img src="./public/nodejs.png" alt="nodejs" />
           </div>
           <div className="tech-icon">
-            <img src="./src/assets/nest.svg" alt="nest" />
+            <img src="./public/nest.svg" alt="nest" />
           </div>
         </div>
       </div>
