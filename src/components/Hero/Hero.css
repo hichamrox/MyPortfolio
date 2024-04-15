@@ -128,3 +128,12 @@
     margin-top: 2rem;
   }
 }
+
+@media (max-width: 768px) {
+    .hero-icons > div > img {
+        width: 15rem;
+    }
+    .hero-right-content > img {
+        width: 15rem;
+    }
+}
