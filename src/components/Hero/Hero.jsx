@@ -33,7 +33,7 @@ const Hero = () => {
             <img src="/images/ts.png" alt="typescript" />
           </div>
           <div className="tech-icon">
-            <img src="/images/react.png" alt="react" />
+            <img src="/images/React.png" alt="react" />
           </div>
           <div className="tech-icon">
             <img src="/images/flutter.png" alt="flutter" />
