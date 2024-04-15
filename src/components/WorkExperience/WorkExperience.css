@@ -1,0 +1,39 @@
+.experience-container {
+    padding: 4rem 0;
+    position: relative;
+}
+
+.experience-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.arrow-left,
+.arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 55%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.arrow-left {
+    left: -4rem;
+}
+
+.arrow-right {
+    right: -4rem;
+}
+
+@media (max-width: 1024px) {
+    .arrow-left {
+        left: 0;
+    }
+
+    .arrow-right {
+        right: 0;
+    }
+}
