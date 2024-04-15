@@ -3,43 +3,76 @@ export const SKILLS = [
     title: "Frontend",
     icon: "/images/front.png",
     skills: [
-      { skill: "HTML5", percentage: "80%" },
-      { skill: "CSS3 (Sass/SCSS)", percentage: "90%" },
-      { skill: "JavaScript", percentage: "75%" },
-      { skill: "React.js", percentage: "80%" },
+      { skill: "HTML/CSS", percentage: "80%" },
+      { skill: "React", percentage: "80%" },
+      { skill: "Flutter", percentage: "80%" },
+      { skill: "React Native", percentage: "80%" },
+      { skill: "NextJs", percentage: "70%" },
+      { skill: "Bootstrap", percentage: "80%" },
+      { skill: "Tailwind", percentage: "80%" },
+      { skill: "Figma", percentage: "80%" },
+      { skill: "Wordpress", percentage: "80%" },
+
     ],
   },
   {
-    title: "Backend",
+    title: "Languages & Backend",
     icon: "/images/back.png",
     skills: [
-      { skill: "Node.js", percentage: "70%" },
-      { skill: "Express.js", percentage: "65%" },
+      { skill: "Javascript", percentage: "90%" },
+      { skill: "Typescript", percentage: "80%" },
+      { skill: "PHP", percentage: "70%" },
+      { skill: "Python", percentage: "90%" },
+      { skill: "Dart", percentage: "80%" },
+      { skill: "NodeJs", percentage: "80%" },
+      { skill: "NestJs", percentage: "90%" },
+      { skill: "PostgreSQL", percentage: "70%" },
+      { skill: "MongoDB", percentage: "70%" },
+      { skill: "Prisma", percentage: "80%" },
+      { skill: "Sequelize", percentage: "70%" },
     ],
   },
   {
-    title: "Tools",
+    title: "Devops",
     icon: "/images/tools.png",
     skills: [
-      { skill: "Git & GitHub", percentage: "85%" },
-      { skill: "Visual Studio Code", percentage: "75%" },
-      { skill: "Webpack", percentage: "60%" },
-      { skill: "Responsive Design", percentage: "70%" },
+      { skill: "Git", percentage: "85%" },
+      { skill: "Docker", percentage: "80%" },
+      { skill: "kubernetes", percentage: "80%" },
+      { skill: "Gitlab CI/CD", percentage: "70%" },
+      { skill: "Jenkins", percentage: "70%" },
+      { skill: "AWS", percentage: "70%" },
+      { skill: "Postman/Insomnia", percentage: "90%" },
+      { skill: "Swagger", percentage: "80%" },
+      { skill: "Jira", percentage: "80%" },
+      { skill: "Trello", percentage: "70%" },
+      
     ],
   },
   {
     title: "Soft Skills",
     icon: "/images/softskills.png",
     skills: [
-      { skill: "Problem-solving", percentage: "80%" },
+      { skill: "Problem-solving", percentage: "90%" },
       { skill: "Collaboration", percentage: "85%" },
-      { skill: "Attention to Detail", percentage: "75%" },
+      { skill: "Communication", percentage: "85%" },
+      { skill: "Leadership", percentage: "80%" },
+      { skill: "Teamwork", percentage: "90%" },
     ],
   },
 ];
 
 
 export const WORK_EXPERIENCE = [
+  {
+    title: "Tech Lead fullstack",
+    date: "Novembre 2023 (Emploi actuel)",
+    responsabilities: [
+      "Concevoir et développer des fonctionnalités front-end et back-end d'une application de livraison de plats à domicile en utilisant React Native pour l'application mobile et Laravel pour l'API côté serveur.",
+      "Diriger et encadrer une équipe de développeurs, en fournissant des orientations techniques, en supervisant les activités de développement et en garantissant la qualité du code.",
+      "Concevoir une architecture logicielle robuste et évolutive, en s'assurant qu'elle répond aux exigences fonctionnelles et non fonctionnelles de notre application de livraison."
+    ]
+  },
   {
     title: "Développeur fullstack",
     date: "Avril 2022 à Octobre 2023",
@@ -58,15 +91,6 @@ export const WORK_EXPERIENCE = [
       "Conception, développement et déploiement d'applications mobiles robustes et évolutives en utilisant les technologies Flutter et Node.js.",
       "Intégration réussie du back-end Seed avec l'API du Baas Swan, un service bancaire, pour permettre une connexion fluide et sécurisée.",
       "Développement et implémentation de différentes fonctionnalités et algorithmes pour la gestion d'argent."
-    ]
-  },
-  {
-    title: "Tech Lead fullstack",
-    date: "Novembre 2023 (Emploi actuel)",
-    responsabilities: [
-      "Concevoir et développer des fonctionnalités front-end et back-end d'une application de livraison de plats à domicile en utilisant React Native pour l'application mobile et Laravel pour l'API côté serveur.",
-      "Diriger et encadrer une équipe de développeurs, en fournissant des orientations techniques, en supervisant les activités de développement et en garantissant la qualité du code.",
-      "Concevoir une architecture logicielle robuste et évolutive, en s'assurant qu'elle répond aux exigences fonctionnelles et non fonctionnelles de notre application de livraison."
     ]
   },
   {
