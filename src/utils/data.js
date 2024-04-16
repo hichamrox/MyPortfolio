@@ -66,39 +66,39 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
   {
     title: "Tech Lead fullstack",
-    date: "Novembre 2023 (Emploi actuel)",
+    date: "November 2023 (Current job)",
     responsabilities: [
-      "Concevoir et développer des fonctionnalités front-end et back-end d'une application de livraison de plats à domicile en utilisant React Native pour l'application mobile et Laravel pour l'API côté serveur.",
-      "Diriger et encadrer une équipe de développeurs, en fournissant des orientations techniques, en supervisant les activités de développement et en garantissant la qualité du code.",
-      "Concevoir une architecture logicielle robuste et évolutive, en s'assurant qu'elle répond aux exigences fonctionnelles et non fonctionnelles de notre application de livraison."
+      "Design and develop front-end and back-end features of a home food delivery application using React Native for the mobile application and Laravel for the server-side API.",
+      "Lead and mentor a team of developers, providing technical guidance, overseeing development activities, and ensuring code quality.",
+      "Design a robust and scalable software architecture, ensuring it meets the functional and non-functional requirements of our delivery application."
     ]
   },
   {
-    title: "Développeur fullstack",
-    date: "Avril 2022 à Octobre 2023",
+    title: "Fullstack Developer",
+    date: "April 2022 to October 2023",
     responsabilities: [
-      "Refonte et développement complet d'un outil interne chez Capgemini en utilisant React avec TypeScript et Nest.js.",
-      "Création d'API sécurisées avec NestJS pour permettre la communication entre le frontend et le backend.",
-      "Configuration et gestion d'un monorepo Nx, permettant une structure de projet efficace et une gestion simplifiée des dépendances entre les différents modules d'une application.",
-      "Mise en place de tests unitaires et end-to-end (Jest) assurant la qualité et la fiabilité du code.",
-      "Utilisation de pipelines CI/CD avec GitLab pour automatiser efficacement les processus de build, test et déploiement en environnement de production."
+      "Redesign and fully develop an internal tool at Capgemini using React with TypeScript and Nest.js.",
+      "Create secure APIs with NestJS to enable communication between the frontend and backend.",
+      "Configure and manage an Nx monorepo, allowing for an efficient project structure and simplified management of dependencies between different modules of an application.",
+      "Implement unit and end-to-end tests (Jest) to ensure code quality and reliability.",
+      "Use CI/CD pipelines with GitLab to effectively automate build, test, and deployment processes in a production environment."
     ]
   },
   {
-    title: "Développeur fullstack",
-    date: "Septembre 2020 à Mars 2022",
+    title: "Fullstack Developer",
+    date: "September 2020 to March 2022",
     responsabilities: [
-      "Conception, développement et déploiement d'applications mobiles robustes et évolutives en utilisant les technologies Flutter et Node.js.",
-      "Intégration réussie du back-end Seed avec l'API du Baas Swan, un service bancaire, pour permettre une connexion fluide et sécurisée.",
-      "Développement et implémentation de différentes fonctionnalités et algorithmes pour la gestion d'argent."
+      "Design, develop, and deploy robust and scalable mobile applications using Flutter and Node.js technologies.",
+      "Successfully integrate the Seed backend with the Swan Baas API, a banking service, to enable smooth and secure connection.",
+      "Develop and implement various features and algorithms for money management."
     ]
   },
   {
-    title: "Développeur CMS wordpress",
-    date: "Mars 2019 à Décembre 2020",
+    title: "WordPress CMS Developer",
+    date: "March 2019 to December 2020",
     responsabilities: [
-      "Réalisation de la conception et du développement complet du site web pour FlyingDress en utilisant WordPress comme CMS.",
-      "Gestion de l'hébergement et maintenance continue du site pour garantir un fonctionnement optimal."
+      "Complete design and development of the FlyingDress website using WordPress as a CMS.",
+      "Manage hosting and ongoing maintenance of the site to ensure optimal operation."
     ]
   }
 ];
